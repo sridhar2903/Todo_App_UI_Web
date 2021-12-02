@@ -1,3 +1,4 @@
+
 .paris
 {
     position: relative;
@@ -40,7 +41,8 @@ font-weight: bolder;
 
 .pariscard
 {
-    
+    position: relative;
+    bottom: 40px;
     
     border:tomato 2px solid;
  
