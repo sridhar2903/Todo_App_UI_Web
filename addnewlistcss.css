@@ -1,8 +1,6 @@
  html {
     height: 100%;
-    border:2px grey solid ;
-    margin-left: 100px;
-    margin-right: 100px;
+    
     
 
     
@@ -15,9 +13,7 @@
    
   }
   
-  * {
-    box-sizing:border-box;
-  }
+  
   
   .bg-image {
    
@@ -29,26 +25,42 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .add
-  {
+  .add {
     text-align: center;
-    position:relative;
-    bottom:500px;
-    left:10px;
+   
+    /* bottom: 500px; */
+    /* left: 10px; */
     background-color: white;
-    border:tomato 2px solid;
+    border: tomato 2px solid;
     border-radius: 10px;
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
     color: tomato;
-    margin-left: 430px;
-    margin-right: 430px;
-    margin-top: -35px;
-     padding-bottom: 55px;
-     position: relative;
-     left:20px;
-     box-shadow:silver 8px 8px 10px ;
-     box-sizing: border-box;
+    /* margin-left: 430px; */
+    /* margin-right: 430px; */
+    /* margin-top: -35px; */
+    /* padding-bottom: 55px; */
+    /* position: relative; */
+    /* left: 20px; */
+    box-shadow: silver 8px 8px 10px;
+   
+    height: 240px;
+    width: 450px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+    
+    
+    /*margin: 0px auto;*/
+    /*width: 50%;*/
+    /* vertical-align: middle; */
+    /*top: 33%;*/
+    /*left: 30%;*/
+   /* bottom: 10%;*/
      
   }
   #submit
